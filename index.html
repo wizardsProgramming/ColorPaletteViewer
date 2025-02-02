@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Palette Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section with Image -->
+    <header class="header">
+        <img src="./colorHeaderIMG.jpg" alt="Header Image" class="header-image">
+    </header>
+
+    <!-- Main content -->
+    <div class="container">
+        <!-- Title -->
+        <h2>Color Palette Generator</h2>
+
+        <!-- Palette Name -->
+        <div id="palette-name" class="palette-name">
+            <strong>Selected Palette: </strong> <span id="selected-palette-name">None</span>
+        </div>
+
+        <!-- Color Display -->
+        <div class="color-display" id="color-display">
+            <div class="color" id="color1"></div>
+            <div class="color" id="color2"></div>
+            <div class="color" id="color3"></div>
+            <div class="color" id="color4"></div>
+            <div class="color" id="color5"></div>
+            <div class="color" id="color6"></div>
+        </div>
+
+        <!-- Get CSS Button -->
+        <div>
+            <button id="get-css" class="get-css-button">Get CSS</button>
+        </div>
+
+        <!-- CSS Output -->
+        <div id="css-output" class="css-output">
+            <textarea id="css-textarea" readonly></textarea>
+        </div>
+    </div>
+
+    <!-- Palette buttons -->
+    <div class="palette-buttons">
+        <button class="palette-button" data-palette="palette1">Sunset Vibes</button>
+        <button class="palette-button" data-palette="palette2">Ocean Breeze</button>
+        <button class="palette-button" data-palette="palette3">Autumn Leaves</button>
+        <button class="palette-button" data-palette="palette4">Tropical Paradise</button>
+        <button class="palette-button" data-palette="palette5">Neon Lights</button>
+        <button class="palette-button" data-palette="palette6">Peachy Keen</button>
+        <button class="palette-button" data-palette="palette7">Lavender Dream</button>
+        <button class="palette-button" data-palette="palette8">Forest Escape</button>
+        <button class="palette-button" data-palette="palette9">Lemon Sorbet</button>
+        <button class="palette-button" data-palette="palette10">Midnight Sky</button>
+        <button class="palette-button" data-palette="palette11">Desert Mirage</button>
+        <button class="palette-button" data-palette="palette12">Emerald Lagoon</button>
+        <button class="palette-button" data-palette="palette13">Berry Bliss</button>
+        <button class="palette-button" data-palette="palette14">Sea Breeze</button>
+        <button class="palette-button" data-palette="palette15">Citrus Burst</button>
+        <button class="palette-button" data-palette="palette16">Frosty Morning</button>
+        <button class="palette-button" data-palette="palette17">Electric Sunset</button>
+        <button class="palette-button" data-palette="palette18">Autumn Harvest</button>
+        <button class="palette-button" data-palette="palette19">Pastel Dreams</button>
+        <button class="palette-button" data-palette="palette20">Candy Shop</button>
+        <button class="palette-button" data-palette="palette21">Galaxy Glow</button>
+        <button class="palette-button" data-palette="palette22">Sunshine Coast</button>
+        <button class="palette-button" data-palette="palette23">Mocha Delight</button>
+        <button class="palette-button" data-palette="palette24">Bold & Bright</button>
+        <button class="palette-button" data-palette="palette25">Wanderlust</button>
+        <button class="palette-button" data-palette="palette26">Cozy Cabin</button>
+        <button class="palette-button" data-palette="palette27">Tangerine Dream</button>
+        <button class="palette-button" data-palette="palette28">Winter Wonderland</button>
+        <button class="palette-button" data-palette="palette29">Serene Ocean</button>
+        <button class="palette-button" data-palette="palette30">Mauve Bliss</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
